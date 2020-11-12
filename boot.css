@@ -1,0 +1,468 @@
+* {
+	font-family:  'BenchNine', Arial, sans-serif;
+}
+
+
+.container h1 {
+	position: relative;
+	font-weight: 500;
+	color: #9CC9FF;
+	text-align: center;
+}
+
+.bg {
+	background-image: url("comingsoon.png");
+	background-position: center;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	display: block;
+}
+
+
+.carousel{
+  width:100%;
+  right: 0;
+  left: 0;
+}
+.carousel-item img{
+  object-fit:contain;
+  height:400px !important;
+  width:800px;
+  display: block;
+}
+
+.carousel-caption h5{
+	color: #9CC9FF;
+	font-size: 23px;
+	font-weight: bolder;
+}
+
+.carousel-caption p{
+	color: #9CC9FF;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+.row img {
+	flex: 1;
+    float: left;
+    width: 300px;
+    height: 250px;
+    object-fit: scale-down;
+}
+
+
+
+.footer {
+			opacity: 1;
+			position: fixed;
+			width: : 100%;
+			right: 0;
+			bottom: 0;
+			left: 0;
+            background-color: #232F3E;
+            min-height: 50px;
+            max-height: 100px;
+            padding: 20px;
+            text-align: left;
+            color: white;
+            z-index: -1;
+        }
+
+.footer p {
+	color: #9CC9FF;
+}
+.container-footer {
+		height: 100px;
+		position: relative;
+		background-color: solid black;
+		bottom: 0;
+		left: 0;
+}
+
+
+
+.media img {
+	margin: 10px
+}
+
+.media-background {
+	overflow: auto;
+	background-color: #455A71;
+	height: 180px;
+	margin: 60px auto;
+	margin-bottom: 0;
+	padding: 15px auto;
+	max-height: 300px;
+	font-weight: 500;
+	color: #9CC9FF;
+}
+
+/*snippet buy button*/
+
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {
+  width: 30%;
+  background-color: #E48900;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-size: 1em;
+  font-size: 18px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color: #E48900;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+
+  border-bottom-width: 2px;
+  border-color: #ff9900;
+  bottom: -5px;
+  right: 0px;
+}
+
+.snip1582:hover,
+.snip1582.hover {
+		color: black;
+  background-color: #ff9900;
+}
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+/*snippet product with price*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,700');
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1583 {
+  font-family: 'Fira Sans Extra Condensed', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #4A6079;
+  color: #9CC9FF;
+  line-height: 1.2em;
+  text-align: left;
+}
+
+.snip1583 *,
+.snip1583 *:before,
+.snip1583 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1583 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1583 figcaption {
+  padding: 10px;
+}
+
+.snip1583 h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0 0 4px;
+}
+
+.snip1583 .price {
+  margin: 8px 0;
+  font-weight: 700;
+  color: #4da3e2;
+  font-size: 1.5rem;
+}
+
+.snip1583 .icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.snip1583 .icons a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.snip1583 .icons a i {
+  display: block;
+  font-size: 23.52941176px;
+  line-height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+}
+
+.snip1583 .icons a i:hover {
+  background-color: #4da3e2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.snip1583:hover a,
+.snip1583.hover a {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1583:hover a:nth-child(2),
+.snip1583.hover a:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.snip1583:hover a:nth-child(3),
+.snip1583.hover a:nth-child(3) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+
+/*snippet Featured*/
+
+.snip1562 {
+  background-color: #E48900;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.snip1562:before,
+.snip1562:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1562:before {
+  border-color: #E48900;
+  border-left-width: 2px;
+  border-top-width: 2px;
+  left: -5px;
+  top: -5px;
+}
+
+.snip1562:after {
+  border-bottom-width: 2px;
+  border-color: #ff9900;
+  border-right-width: 2px;
+  bottom: -5px;
+  right: -5px;
+}
+
+.snip1562:hover,
+.snip1562.hover {
+	color: black;
+  background-color: #ff9900;
+}
+
+.snip1562:hover:before,
+.snip1562.hover:before,
+.snip1562:hover:after,
+.snip1562.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* shop now*/
+.snip1567 {
+  background-color: #232F3E;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 5px;
+  max-width: 500px;
+  min-width: 400px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1567 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1567 img {
+  width: 100%;
+  height: 250px;
+  max-height: 400px;
+  max-width: 500px;
+  opacity: 1;
+  position: relative;
+  vertical-align: top;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top:5px;
+  object-fit: cover;
+}
+
+.snip1567 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1567 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  background-color: #000000;
+  color: #9CC9FF;
+  top: 0;
+  font-weight: 500;
+  font-family:  'BenchNine', Arial, sans-serif;
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 10px 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.snip1567 p {
+  position: absolute;
+  width: 100%;
+  color: #9CC9FF;
+  font-family:  'BenchNine', Arial, sans-serif;
+  bottom: 0;
+  padding: 0px 20px;
+  opacity: 0;
+  text-align: right;
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.snip1567 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 54px;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.snip1567 .hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: rgba(169, 169, 169, 0.4);
+  display: flex;
+  font-size: 65px;
+  justify-content: center;
+  opacity: 0;
+}
+
+.snip1567 a {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.snip1567:hover .hover,
+.snip1567.hover .hover {
+  opacity: 1;
+}
+
+.snip1567:hover p,
+.snip1567.hover p {
+  opacity: 1;
+}
+
+.snip1567:hover h3,
+.snip1567.hover h3 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.snip1567:hover i,
+.snip1567.hover i {
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
+  opacity: 0;
+}
